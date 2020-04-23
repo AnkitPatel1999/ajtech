@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Quicksand'>
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+<div class="container">
+	<div class="box1">
+		<p class="p1">Transactions</p>
+		<div class="box11">
+			<div class="one">
+				<div class="img1">
+					<img src="binder.svg">
+				</div>
+				<div class="select1">
+					<select class="grey">
+						<option>Select portfolio</option>
+					</select>
+				</div>
+			</div>
+			<div class="two">
+				<div class="img2">
+					<img src="folder.svg">
+				</div>
+				<div class="select2	">
+					<select >
+						<option >Select transaction type</option>
+					</select>
+				</div>
+			</div>
+			<div class="three">
+				<button type="button" name="" value="View Details" id="btn">View Details</button> 
+			</div>
+
+			
+		
+		</div>
+
+	</div> <!-- box 1 complete -->
+	
+	<div class="box3">
+		<div class="table1">
+		<table id="tbl1">
+		  <thead >
+		    <tr class="row1">
+		      <th class="first">P/R</th>
+		      <th class="first">P/R</th>
+		      <th >Fund Name</th>
+		      <th >Category</th>
+		      <th >Amount(.Rs)</th>
+		      <th >NAV*</th>
+		      <th >TimeStamp</th>
+		      <th>Date</th>
+		     <th class="last">Status</th>
+		    </tr>
+		  </thead>
+		  <tbody >
+		    <tr class="row2">
+		      <td class="td1"><div class="blue1">P</div></td>
+		      <td class="td1"><div class="blue1">Purchase</div></td>
+		      <td class="td1">Adity Birla Sun Life Front</td>
+		      <td class="td1">Equity-Larg</td>
+		      <td class="td1">1,25,356.00</td>
+		      <td class="td1">104.52</td>
+		      <td class="td1">13:32 12:03:20</td>
+		      <td class="td2">12.03.20</td>
+		      <td class="td1">Completed</td>
+		    </tr>
+		    <tr >
+		      <td class="td1"><div class="red" id="ok">R</div></td>
+		      <td class="td1"><div class="red" id="ok">Redemption</div></td>
+		      <td class="td1">Adity Birla Sun Life Front</td>
+		      <td class="td1">Equity-Larg</td>
+		      <td class="td1">1,25,356.00</td>
+		      <td class="td1">104.52</td>
+		      <td class="td1">13:32 12:03:20</td>
+		      <td class="td2">12.03.20</td>
+		      <td class="td1">Completed</td>
+		    </tr>
+		    <tr >
+		      <td class="td1"><div class="blue1">P</div></td>
+		      <td class="td1"><div class="blue1">Purchase</div></td>
+		      <td class="td1">Adity Birla Sun Life Front</td>
+		      <td class="td1">Equity-Larg</td>
+		      <td class="td1">1,25,356.00</td>
+		      <td class="td1">104.52</td>
+		      <td class="td1">13:32 12:03:20</td>
+		      <td class="td2">12.03.20</td>
+		      <td class="td1">Completed</td>
+		    </tr>
+		    <tr >
+		      <td class="td1"><div class="red" id="ok">R</div></td>
+		      <td class="td1"><div class="red" id="ok">Redemption</div></td>
+		      <td class="td1">Adity Birla Sun Life Front</td>
+		      <td class="td1">Equity-Larg</td>
+		      <td class="td1">1,25,356.00</td>
+		      <td class="td1">104.52</td>
+		      <td class="td1">13:32 12:03:20</td>
+		      <td class="td2">12.03.20</td>
+		      <td class="td1">pending</td>
+		    </tr>
+		  </tbody> 
+		</table>
+		</div>
+		<!-- second table start -->
+		<div class="table2">
+		<table class="tbl2">
+		  <thead >
+		    <tr >
+		      <th class="first">SIP</th>
+   		      <th class="first">SIP</th>
+		      <th >Fund Name</th>
+		      <th class="m2" >Category</th>
+		      <th class="m2">Installment<br> Amount</th>
+		      <th class="m2">Completed<br> Installment</th>
+		      <th class="m2">No. of <br>Installment</th>
+		      <th >TimeStamp</th>
+		      <th>Date</th>
+		      <th class="last">Status</th>
+		    </tr>
+		  </thead>
+		  <tbody class="tbody2">
+		    <tr >
+		      <td class="td2"><div class="blue">SIP</div></td>
+   		      <td class="td2"><div class="blue">SIP</div></td>
+		      <td class="td2">Adity Birla Sun Life Front</td>
+		      <td class="td2">Equity-Larg</td>
+		      <td class="td2" id="m2">10,000</td>
+		      <td class="td2" id="m2">100</td>
+		      <td class="td2">Until Cancelled</td>
+		      <td class="td2">13:32 12:03:20</td>
+		      <td class="td2">12.03.20</td>
+		      <td class="td2">Completed</td>
+		    </tr>
+		    <tr >
+		      <td class="td2"><div class="red" id="redshort">CSIP</div></td>
+		      <td class="td2"><div class="red" id="red">Cease SIP</div></td>
+		      <td class="td2">Adity Birla Sun Life Front</td>
+		      <td class="td2">Equity-Larg</td>
+		      <td class="td2" id="m2">10,000</td>
+		      <td class="td2" id="m2">100</td>
+		      <td class="td2">Until Cancelled</td>
+		      <td class="td2">13:32 12:03:20</td>
+		      <td class="td2">12.03.20</td>
+		      <td class="td2">Completed</td>
+		    </tr>
+		    <tr >
+		      <td class="td2"><div class="blue">SIP</div></td>
+		      <td class="td2"><div class="blue">SIP</div></td>
+		      <td class="td2">Adity Birla Sun Life Front</td>
+		      <td class="td2">Equity-Larg</td>
+		      <td class="td2" id="m2" >10,000</td>
+		      <td class="td2" id="m2">100</td>
+		      <td class="td2">Until Cancelled</td>
+		      <td class="td2">13:32 12:03:20</td>
+		      <td class="td2">12.03.20</td>
+		      <td class="td2">Completed</td>
+		    </tr>
+		    <tr >
+		      <td class="td2"><div class="red" id="redshort">CSIP</div></td>
+		      <td class="td2"><div class="red" id="red">Cease SIP</div></td>
+		      <td class="td2">Adity Birla Sun Life Front</td>
+		      <td class="td2">Equity-Larg</td>
+		      <td class="td2" id="m2">10,000</td>
+		      <td class="td2" id="m2">100</td>
+		      <td class="td2">Until Cancelled</td>
+		      <td class="td2">13:32 12:03:20</td>
+		      <td class="td2">12.03.20</td>
+		      <td class="td2">Pending</td>
+		    </tr>
+		  </tbody>
+		</table>
+		</div>
+		<!-- second table end -->
+	</div> <!-- box3 complete -->
+
+	<div class="notes">
+		<p>NOTES:</p>
+		<p>1.P/R=Purchase/Redemption</p>
+		<p>NAV*=If completed, then actual, otherwise, temporary</p>
+		<p>UC=Until Completed</p>
+		
+	</div>
+ 
+
+	
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
